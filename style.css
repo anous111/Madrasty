@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 5000px;
+}
+
+.container {
+    max-width: 1178px;
+}
+
+.header {
+    background: linear-gradient(to right, rgba(11, 99, 105, 0.719), rgba(16, 126, 80, 0.699)), url(../img1/glass.jpg);
+    background-size: cover !important;
+    background-position: bottom !important;
+    width: 100% !important;
+    height: 600px!important;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: cursive !important;
+    font-weight: bold !important;
+}
+
+.nav-item {
+    margin-right: 30px !important;
+}
+
+.nav-link:hover {
+    color: red !important;
+}
+
+.btn {
+    background-color: hsl(8deg 78% 67%);
+    color: white;
+    border: white;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.text-header {
+    color: white;
+    font-family: cursive !important;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.button {
+    position: absolute;
+    left: 56%;
+    width: 71px;
+    height: 31px;
+    background-color: blue;
+    border-radius: 21px;
+}
+
+.form-control {
+    margin-left: 41%;
+    position: relative;
+}
+
+.social-media {
+    margin-top: 60px;
+    color: white;
+    font-family: cursive !important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.social-media:hover {
+    color: blue;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.text-content {
+    font-family: cursive !important;
+    color: hsl(220deg 16% 34%);
+    padding-top: 40px
+}
+
+.image-content:hover {
+    transform: rotate(deg30);
+    transition: 1s ease-in-out;
+}
+
+.content1 {
+    margin-top: 30px;
+    background-color: hsl(208deg 50% 70%);
+    height: 600px;
+}
+
+.text-content1 {
+    font-family: cursive !important;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: white;
+    height: 300px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.card img:hover {
+    transform: rotateY( 20deg);
+    transition: 1s ease-in-out;
+}
+
+.footer {
+    background-image: url(../img1/lan.png);
+    border-radius: 20px;
+}
+
+.text-footer {
+    margin-top: 60px;
+    color: white;
+    font-family: cursive !important;
+}
+
+.list-footer {
+    margin-top: 60px;
+    color: white;
+    font-family: cursive !important;
+    list
+}
+
+.list-footer li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.list-footer li:hover {
+    color: red;
+}
+
+#liste4 li img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+#liste4 li :hover {
+    color: white;
+}
